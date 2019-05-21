@@ -5,6 +5,6 @@ node {
     }
     stage("phpunit") {
         // Run PHPUnit
-        bat '.vendor\bin\phpunit'
+        bat 'vendor/bin/phpunit'
     }
 }
